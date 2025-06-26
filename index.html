@@ -5,50 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-        *{
-            box-sizing: border-box;
-            text-align: center;
-            color:black;
-        }
-        .div-1{
-         width: 800px;
-         height: 700px ;
-         padding: 100px 100px;
-         background-color: green;
-        }
-        .div-2{
-            width: 100%;
-            height: 500px;
-            background-color:#1d08dd ;
-        }
-        .buton{
-            background-color:lightgreen;
-            font-size: 25px;
-            border: none;
-           
-            border-radius: 9px;
-            cursor: pointer;
-        }
-        .inp{
-            background-color: red;
-            font-size: 25px;
-            border: none;
-           border-radius: 9px;
-            cursor: pointer;
-        }
+        body{
+			margin: 0;
+			padding: 0;
+			background-color: black;
+			box-sizing: border-box;
+		}
+		.menu{
+			margin: 30px;
+			width: 1306px;
+			height: 490px;
+			background-color: limegreen;
+			padding-top: 70px;
+		}
+		.contact{
+			width: 325px;
+			height: 440px;
+			margin-left: 490px;
+			margin-top: -30px;
+			background-color: white;
+			border-radius: 5px;
+		}
+		p{
+			text-align: center;
+			font-size: 20px;
+			padding: 10px;
+		}
+		input{
+			margin-left:20px ;
+			margin-top: 10px;
+			width: 265px;
+			height: 20px;
+			padding-left: 10px;
+		}
+		.textarea{
+			margin-left: 20px;
+			margin-top: 10px;
+			width: 275px;
+			height: 50px;
+		}
+		button{
+			background-color: limegreen;
+			color: white;
+			margin-left: 20px;
+			margin-top: 20px;
+			width: 275px;
+			height: 30px;
+			border-radius: 30px;
+			border-color: limegreen;
+		}
+		p{
+			text-transform: uppercase;
+		}
     </style>
 </head>
 <body>
-    <div class="div-1">
-        <div class="div-2">
-             <h1><strong>Hasaba alyş</strong></h1>
-            <input type="text" class="inp" placeholder="Ady"><br><br>
-            <input type="text" class="inp" placeholder="Familiya"><br><br>
-             <input type="text" class="inp" placeholder="Doglan senesi"><br><br>
-             <input type="text" class="inp" placeholder="E-mail"><br><br>
-             <input type="password" class="inp" placeholder="parol"><br><br>
-             <input type="password" class="inp" placeholder="gaytadan giriz"><br><br>
-                 <button class="buton"> Hasaba gir </button>
+    <div class="menu">
+        <div class="contact">
+            <p>CONTACT US</p>
+			<input type="text" name="" placeholder="Name"></br>
+			<input type="subject" name="" placeholder="Subject"></br>
+			<input type="phone" name="" placeholder="Phone"></br>
+			<input type="email" name="" placeholder="Email">
+			<textarea class="textarea"></textarea>
+			<button>S U B M I T</button>
         </div>
-    </div></body>
+    </div>
+</body>
 </html>
